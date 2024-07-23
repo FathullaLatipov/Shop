@@ -3345,6 +3345,8 @@ input[type="button"].btn-block {
   width: 100%;
 }
 
+
+
 .input-group > .form-control,
 .input-group > .form-control-plaintext,
 .input-group > .custom-select,
@@ -4131,6 +4133,9 @@ input[type="button"].btn-block {
   .navbar-expand-md {
     flex-flow: row nowrap;
     justify-content: flex-start;
+  }
+  .asd {
+    display: none;
   }
   .navbar-expand-md .navbar-nav {
     flex-direction: row;
