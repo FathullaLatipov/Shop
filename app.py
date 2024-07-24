@@ -81,6 +81,10 @@ def product_detail(product_id):
         return render_template('detail.html', product=product)
     else:
         return "Product not found", 404
+    
+@app.route('/policy', methods=['GET'])
+def policy():
+    return render_template('policy.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
